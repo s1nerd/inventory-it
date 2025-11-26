@@ -1,0 +1,19 @@
+{
+  "name": "inventory-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "init-db": "node init-db.js"
+  },
+  "dependencies": {
+    "cors": "^2.x",
+    "express": "^4.x",
+    "node-cron": "^4.2.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.x"
+  }
+}
